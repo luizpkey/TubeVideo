@@ -1,0 +1,38 @@
+.sidebar{
+   display: flex;
+   width: 218px;
+   height: 968px;
+   flex-direction: column;
+   align-items: flex-start;
+   flex-shrink: 0;
+}
+
+.menu{
+   display: flex;
+   width: 218px;
+   height: 968px;
+   padding: 24px;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 22px;
+}
+
+.item{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+@media (width < 848px) {
+   .sidebar{
+      transition: all 0.5s;
+      width: 42px;
+   }
+   .menu{
+      transition: all 0.5s;
+      width: 50px;
+   }
+   ul>li>span{
+      display: none;
+   }
+}

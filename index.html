@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TubeVideo</title>
+   <link rel="stylesheet" href="./src/styles/reset.css">
+   <link rel="stylesheet" href="./src/styles/main.css">
+   <link rel="stylesheet" href="./src/styles/sidebar.css">
+   <link rel="stylesheet" href="./src/styles/grid.css">
+</head>
+<body>
+      <header class="header">
+         <div class="logo">
+            <img src="./src/assets/iconMenu.svg" alt="" class="icons" id="menu">
+            <img src="./src/assets/copyright.svg" alt="" class="icons" id="logo">
+         </div>
+         <div class="search">
+            <input type="text" name="search" placeholder="Pesquisar">
+            <div class="virtualButton">
+               <img src="./src/assets/search.svg" class="icons" alt="">
+            </div>
+         </div>
+         <div class="avatar">
+            <img src="./src/assets/cam.svg" alt="" class="icons" class="cam">
+            <img src="./src/assets/bell.svg" alt="" class="icons" class="bell">
+            <img src="./src/assets/steve.png" alt="" class="icons user" class="user">
+         </div>
+      </header>
+   <div class="container">
+      <aside class="sidebar">
+         <ul class="menu">
+            <li class="item" id="1" >
+               <img src="./src/assets/home.svg" alt="" class="icons" >
+               <span>Início</span>
+            </li>
+            <li class="item" id="2">
+               <img src="./src/assets/discover.svg" alt="" class="icons" >
+               <span>Explorar</span>
+            </li>
+            <li class="item" id="3">
+               <img src="./src/assets/play.svg" alt="" class="icons" >
+               <span>Inscrições</span>
+            </li>
+            <li class="item" id="4">
+               <img src="./src/assets/disk.svg" alt="" class="icons" >
+               <span>YouTube Music</span>
+            </li>
+            <li class="item" id="5">
+               <img src="./src/assets/like.svg" alt="" class="icons" >
+               <span>Videos que gostei</span>
+            </li>
+            <li class="item" id="6">
+               <img src="./src/assets/clock.svg" alt="" class="icons" >
+               <span>Assistir mais tarde</span>
+            </li>
+            <li class="item" id="7">
+               <img src="./src/assets/download.svg" alt="" class="icons" >
+               <span>Downloads</span>
+            </li>
+            <li class="item" id="8">
+               <img src="./src/assets/film.svg" alt="" class="icons" >
+               <span>Filmes</span>
+            </li>
+            <li class="item" id="9">
+               <img src="./src/assets/learn.svg" alt="" class="icons" >
+               <span>Aprender</span>
+            </li>
+            <li class="item" id="10">
+               <img src="./src/assets/medals.svg" alt="" class="icons" >
+               <span>Esportes</span>
+            </li>
+         </ul>
+      </aside class="sidebar">
+      <player class="tubeVideo"></player>
+      <div class="grid">
+         <div class="gridRow" id="row1">
+            <div class="grid-item">
+               <img src="./src/assets/cienciaDadosUnimed.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                     <p class="views">2,1 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/scrum.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Scrum Talks</h3>
+                     <p class="views">1,6 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 3 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/masterClass.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Machine Learning Avançado - Fast Track</h3>
+                     <p class="views">1,7 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 4 dias</p>
+                  </div>
+                  </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/projectPlanning.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Global Skills #2 - Project Planning</h3>
+                     <p class="views">2,1 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="gridRow" id="row2">
+            <div class="grid-item">
+               <img src="./src/assets/python.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Como aprender a programar Python do ZERO</h3>
+                     <p class="views">711 visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/cienciaDadosUnimed.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                     <p class="views">2,1 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/scrum.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Scrum Talks</h3>
+                     <p class="views">1,6 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 3 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/masterClass.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Machine Learning Avançado - Fast Track</h3>
+                     <p class="views">1,7 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 4 dias</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="gridRow" id="row3">
+            <div class="grid-item">
+               <img src="./src/assets/scrum.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Scrum Talks</h3>
+                     <p class="views">1,6 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 3 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/masterClass.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Machine Learning Avançado - Fast Track</h3>
+                     <p class="views">1,7 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 4 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/projectPlanning.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Global Skills #2 - Project Planning</h3>
+                     <p class="views">2,1 mil visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+            <div class="grid-item">
+               <img src="./src/assets/python.png" alt="" class="tumb">
+               <div class="info-box">
+                  <img src="./src/assets/dio.png" alt="" class="iconInfluencer">
+                  <div class="text-box">
+                     <h3 class="title">Como aprender a programar Python do ZERO</h3>
+                     <p class="views">711 visualizações</p>
+                     <p class="timeAgo">Transmitido há 2 dias</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</body>
+</html>
